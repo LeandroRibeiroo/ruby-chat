@@ -1,0 +1,20 @@
+<!-- app/views/home/index.html.erb -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Welcome to YourAppName</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+</head>
+
+<body>
+<h1>Welcome to Cristal Chat!</h1>
+<div>
+  <%= link_to 'Sign In', sign_in_path %>
+</div>
+<div>
+  <%= link_to 'Sign Up', sign_up_path %>
+</div>
+</body>
+</html>
